@@ -1,3 +1,34 @@
+
 body {
-  background-color: aquamarine;
+  background-color: white;
+}
+
+.header,
+.refresh,
+.form-header,
+.submit,
+.table-header,
+.score {
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+
+.refresh,
+.submit {
+  background-color: white;
+  box-shadow: 2px 4px;
+  border: black solid;
+}
+
+.score:nth-child(odd) {
+  background-color: #b9bdc1;
+}
+
+.name,
+.Score {
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  color: black;
+  border: solid black 2px;
 }

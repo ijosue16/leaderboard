@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leader board] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> In this project we will use API to get and post data on the web and user interface, starting by creating the basic structure interface of the whole web.
 
-**[your_project__name]** is a...
+**[Leader board]** is an API based project impleented using Javascript and HTML/CSS
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,22 +72,24 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Javascript</a></li>
+    <li><a href="https://reactjs.org/">HTML</a></li>
+    <li><a href="https://reactjs.org/">CSS</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
+  <!-- <ul>
+    <li><a href="https://expressjs.com/">HTML</a></li>
+  </ul> -->
 </details>
 
 <details>
 <summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
+  <!-- <ul>
+    <li><a href="https://www.postgresql.org/">CSS</a></li>
+  </ul> -->
 </details>
 
 <!-- Features -->
@@ -124,11 +126,10 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+
 
 ```sh
- gem install rails
+ install vs code on computer
 ```
  -->
 
@@ -136,39 +137,43 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+
+
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd `<folder name>`
+  git clone https://github.com/ijosue16/leaderboard.git
 ```
---->
+-
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+
 
 ```sh
-  cd my-project
-  gem install
+  Open folder using vs code
+
+  open terminal 
+
+  run `"npm install"`
+
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+
 
 ```sh
-  rails server
+
+run `" npm run build"` and then
+
+run `" npm start"`
 ```
---->
+
 
 ### Run tests
 
@@ -204,15 +209,13 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@ijosue16](https://github.com/ijosue16)
 
-👤 **Author2**
+<!-- 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

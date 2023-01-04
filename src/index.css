@@ -15,7 +15,7 @@ body {
 }
 
 .refresh,
-.submit {
+.submit-btn {
   background-color: white;
   box-shadow: 2px 4px;
   border: black solid;
@@ -25,10 +25,18 @@ body {
   background-color: #b9bdc1;
 }
 
-.name,
+.user,
 .Score {
   font-family: 'Comic Neue', sans-serif;
   font-weight: 600;
   color: black;
   border: solid black 2px;
+}
+
+.message {
+  opacity: 0;
+  transition: opacity 1s;
+  font-family: 'Comic Neue', sans-serif;
+  font-weight: 600;
+  color: black;
 }

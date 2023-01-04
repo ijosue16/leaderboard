@@ -19,11 +19,6 @@
         <div
           class="scores border border-2 border-dark container p-0 d-flex flex-column m-0"
         >
-          <p class="score m-0 p-2">Name:100</p>
-          <p class="score m-0 p-2">Name:100</p>
-          <p class="score m-0 p-2">Name:180</p>
-          <p class="score m-0 p-2">Name:160</p>
-          <p class="score m-0 p-2">Name:100</p>
         </div>
       </div>
       <form
@@ -34,21 +29,22 @@
         <div class="input fields container d-flex flex-column p-0">
           <input
             type="text"
-            class="name mb-2 p-1"
+            class="user mb-2 p-1"
             required
             placeholder="Your Name"
           />
 
           <input
-            type="text"
+            type="number"
             class="Score mb-2 p-1"
             required
             placeholder="Your Score"
           />
+          <div class="container d-flex justify-content-end p-0">
+            <button class="submit-btn" type="submit">submit</button>
+          </div>
         </div>
-        <div class="container d-flex justify-content-end p-0">
-          <button class="submit" type="submit">submit</button>
-        </div>
+        <p class="message "></p>
       </form>
     </main>
   </body>

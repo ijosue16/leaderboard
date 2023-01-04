@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wbpack Exercise</title>
-<script defer src="main.%5BcontentHash%5D.js"></script></head>
-<body>
-    <h1>Hello webpack! gooooo</h1>
-    <p>wllh gheee</p>
-    <h2>coronaaa!!! ooo</h2>
-    <span class="btn bg-primary text-danger">wee</span>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>leaderboard</title>
+  <script defer src="main.%5BcontentHash%5D.js"></script></head>
+  <body>
+    <header class="container">
+      <h1 class="container pb-5 header">Leaderboard</h1>
+    </header>
+    <main class="container d-sm-flex justify-content-around d-block
+     gap-5">
+      <div class="table d-flex flex-column">
+        <div class="container d-flex gap-3 align-content-center">
+          <h2 class="table-header">Recent scores</h2>
+          <button class="refresh mb-2" type="submit">Refresh</button>
+        </div>
+        <div
+          class="scores border border-2 border-dark container p-0 d-flex flex-column m-0"
+        >
+          <p class="score m-0 p-2">Name:100</p>
+          <p class="score m-0 p-2">Name:100</p>
+          <p class="score m-0 p-2">Name:180</p>
+          <p class="score m-0 p-2">Name:160</p>
+          <p class="score m-0 p-2">Name:100</p>
+        </div>
+      </div>
+      <form
+        action=""
+        class="form align-content-between d-flex flex-column container"
+      >
+        <h2 class="form-header pb-3">Add your score</h2>
+        <div class="input fields container d-flex flex-column p-0">
+          <input
+            type="text"
+            class="name mb-2 p-1"
+            required
+            placeholder="Your Name"
+          />
+
+          <input
+            type="text"
+            class="Score mb-2 p-1"
+            required
+            placeholder="Your Score"
+          />
+        </div>
+        <div class="container d-flex justify-content-end p-0">
+          <button class="submit" type="submit">submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>

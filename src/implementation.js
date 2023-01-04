@@ -10,7 +10,6 @@ const renderData = (elements) => {
   score.classList.add('m-0', 'p-2', 'score');
   score.innerHTML = `${elements.user}: ${elements.score}`;
   scores.appendChild(score);
-  // scores.innerHTML = `<p class="score m-0 p-2">${elements.user}:${elements.score}</p>`
 };
 
 const getdata = async () => {

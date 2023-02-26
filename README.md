@@ -208,12 +208,13 @@ Example:
 👤 **Author1**
 
 - GitHub: [@ijosue16](https://github.com/ijosue16)
+- LinkedIn: [Iradukunda Twahirwa Josue](https://www.linkedin.com/in/iradukunda-twahirwa-josue/)
 
 <!-- 👤 **Author2**
 
 - GitHub: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/iradukunda-twahirwa-josue/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
